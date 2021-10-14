@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunksakura_template"]=self["webpackChunksakura_template"]||[]).push([[443],{483:function(a,t,e){e.r(t),e.d(t,{default:function(){return f}});var n=e(396);const u={class:"about"},r=(0,n._)("h1",null,"This is an about page",-1),s=[r];function c(a,t){return(0,n.wg)(),(0,n.iD)("div",u,s)}var i=e(89);const l={},o=(0,i.Z)(l,[["render",c]]);var f=o}}]);
-//# sourceMappingURL=about.8532645b.js.map
