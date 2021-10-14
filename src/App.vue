@@ -1,6 +1,7 @@
 <template>
   <div class="home_page">
-    <router-view></router-view>
+    <router-view />
+    <div>Hello World!!!</div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-// 1. 定义路由组件， 注意，这里一定要使用 文件的全名（包含文件后缀名）
-import Home from "@/views/Home.vue";
+// import Home from "@/views/Home.vue";
+const Home = () => import(/* webpackChunkName: "home" */ "@/views/Home.vue");
 
 const routes = [
   {
@@ -11,8 +11,7 @@ const routes = [
   },
   {
     path: "/home",
-    // 压缩后的可见名称
-    component: () => /* webpackChunkName: "Home" */ Home,
+    component: Home,
   },
 ];
 
