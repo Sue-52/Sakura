@@ -150,10 +150,10 @@
       .top_navbar_list {
         display: inline-block !important;
       }
-
+      // 当窗口缩小到1240px时将列表隐藏
       @media screen and (max-width: 1240px) {
         .top_navbar_list {
-          display: none;
+          display: none !important;
         }
       }
     }
@@ -287,12 +287,6 @@
       i {
         margin-right: 5px;
       }
-    }
-  }
-  // 当窗口缩小到1240px时将列表隐藏
-  @media screen and (max-width: 1240px) {
-    .top_navbar_list {
-      display: none;
     }
   }
 
