@@ -292,7 +292,7 @@
   // 当窗口缩小到1240px时将列表隐藏
   @media screen and (max-width: 1240px) {
     .top_navbar_list {
-      display: none !important;
+      display: none;
     }
   }
 
