@@ -36,7 +36,7 @@
   </div>
 </template>
 
-<script lang="js">
+<script>
   import { ref } from "vue";
 
   export default {
@@ -155,7 +155,7 @@
     color: #fff;
     letter-spacing: 3px;
     line-height: 76px;
-    /* box-shadow: 6px 0px 0px #00e6f6; */
+    box-shadow: 0px 0px 6px #00e6f6;
     outline: transparent;
     position: relative;
   }

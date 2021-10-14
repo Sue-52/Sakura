@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<script lang="js">
+<script>
   // 引入顶部导航组件
 
   export default {

@@ -12,7 +12,7 @@ const routes = [
   {
     path: "/home",
     // 压缩后的可见名称
-    component: () => /* webpackChunkName: "home" */ Home,
+    component: () => /* webpackChunkName: "Home" */ Home,
   },
 ];
 
