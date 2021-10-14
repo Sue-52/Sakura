@@ -1,25 +1,24 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHashHistory } from "vue-router";
+// 1. 定义路由组件， 注意，这里一定要使用 文件的全名（包含文件后缀名）
+import Home from "@/views/Home.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
+    // 主页路由
+    path: "/",
+    // 重定向
+    redirect: "/home",
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
-]
+    path: "/home",
+    // 压缩后的可见名称
+    component: () => /* webpackChunkName: "home" */ Home,
+  },
+];
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

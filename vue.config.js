@@ -1,4 +1,5 @@
 module.exports = {
   transpileDependencies: true,
-  publicPath: "/Sakura/",
+  publicPath: process.env.NODE_ENV === "dev" ? "/" : "/Sakura/",
+  // publicPath: "/Sakura/",
 };
