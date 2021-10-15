@@ -7,7 +7,9 @@
 <script lang="js">
   export default {
     name: "MainArticle",
-    setup() {},
+    setup() {
+
+    },
   };
 </script>
 
